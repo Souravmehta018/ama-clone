@@ -1,15 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './CSS/App.css';
+import Header from './Header.js';
+import Home from './Home.js';
+import { BrowserRouter, Routes, Route, Link, NavLink} from 'react-router-dom';
+import Checkout from './Checkout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hey there
-        </p>        
+    //BEM naming convention
+    
+    <BrowserRouter>
+      <header>
+        <nav>
+          <Header/>
+        </nav>
       </header>
-    </div>
+      <main>
+        <Routes>
+          <Route path="/" element= {<Home/>} />
+          <Route path='/checkout' element= {<Checkout />} />
+        </Routes>
+      </main>
+    </BrowserRouter>
+      
   );
 }
 
