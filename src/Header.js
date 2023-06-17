@@ -4,14 +4,18 @@ import React from 'react';
 import "./CSS/Header.css";
 import SearchIcon from '@mui/icons-material/Search'; /*copied from material ui website to download search icon */
 import { ShoppingCartCheckout } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <div className='header'>
+      <Link to="/">
       <img className='header__logo'
-      src='https://nickiekrommingahill.com/wp-content/uploads/2020/05/white-amazon-logo-png-6.png'
+        src='https://nickiekrommingahill.com/wp-content/uploads/2020/05/white-amazon-logo-png-6.png'
             alt=''
-      />
+        />
+      </Link>
+      
       <div className='header__search'>
         <input className='header__searchInput' type='text' />      
         <SearchIcon className='header__searchIcon' />
@@ -40,12 +44,15 @@ function Header() {
             Prime
           </span>
         </div>
+        <Link to="/checkout">
         <div className="header__optionBasket">
           <ShoppingCartCheckout />
           <span className='header__optionBasket header__basketCount'>
             0
           </span>
         </div>
+        </Link>
+        
       </div>
     </div>
   )
