@@ -5,8 +5,13 @@ import "./CSS/Header.css";
 import SearchIcon from '@mui/icons-material/Search'; /*copied from material ui website to download search icon */
 import { ShoppingCartCheckout } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
+import { useStateValue } from './StateProvider';
 
 function Header() {
+
+  const[{basket}] = useStateValue();
+
+
   return (
     <div className='header'>
       <Link to="/">
@@ -48,7 +53,7 @@ function Header() {
         <div className="header__optionBasket">
           <ShoppingCartCheckout />
           <span className='header__optionBasket header__basketCount'>
-            0
+            {basket?.length}   {/* Question mark is just to handle errors and not freak out if something goes wrong */}
           </span>
         </div>
         </Link>

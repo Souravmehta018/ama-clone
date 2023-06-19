@@ -15,12 +15,14 @@ function Home() {
         {//procut 1,2
         }
         <Product
+          id= "101"
           title= "Samsung Galaxy S23 5G (Green, 8GB, 256GB Storage)"
           price= {49999.00}
           rating= {4}
           image= "https://m.media-amazon.com/images/I/61RZDb2mQxL._SL1500_.jpg" />
         
         <Product
+          id= "102"
           title= "Samsung Galaxy S23 5G (Green, 8GB, 256GB Storage)"
           price= {49999.00}
           rating= {4}

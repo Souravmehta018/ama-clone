@@ -10,11 +10,11 @@ function App() {
     //BEM naming convention
     
     <BrowserRouter>
-      <header>
-        <nav>
+      <>
+        <>
           <Header/>
-        </nav>
-      </header>
+        </>
+      </>
       <main>
         <Routes>
           <Route path='/checkout' element= {<Checkout />} />
