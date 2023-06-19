@@ -31,17 +31,20 @@ function Home() {
         {//product 1,2,3
         }
         <Product
+          id= "001"
           title= "Samsung Galaxy S23 5G (Green, 8GB, 256GB Storage)"
           price= {49999.00}
           rating= {4}
           image= "https://m.media-amazon.com/images/I/61RZDb2mQxL._SL1500_.jpg" />
         <Product
+          id= "002"
           title= "Samsung Galaxy S23 5G (Green, 8GB, 256GB Storage)"
           price= {49999.00}
           rating= {4}
           image= "https://m.media-amazon.com/images/I/61RZDb2mQxL._SL1500_.jpg" />
         
         <Product
+          id="003"
           title= "Samsung Galaxy S23 5G (Green, 8GB, 256GB Storage)"
           price= {49999.00}
           rating= {4}
@@ -51,6 +54,7 @@ function Home() {
         {//product
         } 
         <Product
+          id="034"
           title= "OnePlus 108 cm (43 inches) Y Series 4K Ultra HD Smart Android LED TV 43Y1S Pro (Black)"
           price= {29999.00}
           rating= {4}
