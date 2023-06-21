@@ -15,15 +15,15 @@ function Checkout() {
             <div className="checkout__title">
               <h2 >Your Shopping basket</h2>
 
-            {basket.map(item =>
-              (
-              <CheckoutProduct
-              title= {item.title}
-              image= {item.image}
-              price= {item.price}
-              />
-              )
-            )}
+              {basket.map((item) => (
+                  <CheckoutProduct
+                    title={item.title}
+                    image={item.image}
+                    price={item.price}
+                   />
+                ))
+              }
+
 
             </div>
         </div>
