@@ -1,3 +1,4 @@
+
 export const initialState = {
     basket:[],
 }
@@ -11,6 +12,12 @@ export function getBasketTotal(basket) {
     
     return total;
   }
+  
+/*
+export function dispatch(action) {
+    basket.dispatch(action);
+  }*/
+  
 /* selector - professional way
 
 export const getBasketTotal= (basket) => 
@@ -18,8 +25,8 @@ export const getBasketTotal= (basket) =>
 */
 
 const reducer = (state,action) => {
-    console.log(action)
-    console.log(state)
+    console.log("This is action>>>>",action)
+    console.log("This is state>>>>",state)
     switch(action.type) {
         case 'ADD_TO_BASKET':
             return{
@@ -32,7 +39,8 @@ const reducer = (state,action) => {
                 }
                 // this is deleting all items in basket with same id*/
                 
-                const index = state.basket.findIndex((basketItem) => basketItem.id === action.id);
+                const index = state.basket.findIndex(
+                    (basketItem) => basketItem.id === action.id);
 
                 let newBasket = [...state.basket];
                 if (index >= 0){
@@ -49,6 +57,6 @@ const reducer = (state,action) => {
 
             default: return state;
     }
-}
+};
 
 export default reducer;
