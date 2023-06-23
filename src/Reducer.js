@@ -8,6 +8,7 @@ export function getBasketTotal(basket) {
     for (let i = 0; i < basket.length; i++) {
       total += basket[i].price;
     }
+    
     return total;
   }
 /* selector - professional way
@@ -18,6 +19,7 @@ export const getBasketTotal= (basket) =>
 
 const reducer = (state,action) => {
     console.log(action)
+    console.log(state)
     switch(action.type) {
         case 'ADD_TO_BASKET':
             return{
@@ -25,7 +27,7 @@ const reducer = (state,action) => {
                 basket:[...state.basket, action.item],
             }
             case 'REMOVE_FROM_BASKET':
-                /*return{
+               /* return{
                     ...state, basket: state.basket.filter(item => item.id !== action.id)
                 }
                 // this is deleting all items in basket with same id*/
