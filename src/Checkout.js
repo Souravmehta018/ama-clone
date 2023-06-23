@@ -5,7 +5,7 @@ import { useStateValue } from './StateProvider';
 import CheckoutProduct from './CheckoutProduct';
 function Checkout() {
   const [{basket}, dispatch] = useStateValue();
-
+ //though dispatch is never used here but isko hatake dispatch function work nahi krta
   return (
     <div className='checkout'>
         <div className="checkout__left">
