@@ -6,11 +6,17 @@ import SearchIcon from '@mui/icons-material/Search'; /*copied from material ui w
 import { ShoppingCartCheckout } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { useStateValue } from './StateProvider';
+import { auth } from './Firebase';
 
 function Header() {
 
-  const[{basket}] = useStateValue();
+  const[{basket, user}] = useStateValue();
 
+  const handleAuth = () => {
+    if (user) {   // if there was a user
+      auth.signOut();   //then pull signout module from firebase
+    }
+  }
 
   return (
     <div className='header'>
@@ -27,14 +33,16 @@ function Header() {
       </div>
 
       <div className='header__nav'>
-        <div className='header__options'>
+          <Link to= {!user && "/SignIn"}>   {/*If there was no user then redirect to login page */}
+        <div className='header__options' onClick={handleAuth}>
           <span className='header__optionLineOne'>
-            Hello Guest
+            Hello {user ? user.email : 'Guest'}
           </span>
           <span className='header__optionLineTwo'>
-            Sign In
+            {user ? 'Sign Out' : 'Sign In'} {/* if user exist then display sign out else sign in*/  }
           </span>
         </div>
+          </Link>
         <div className='header__options'>
         <span className='header__optionLineOne'>
           Returns

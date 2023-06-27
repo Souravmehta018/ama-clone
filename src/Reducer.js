@@ -1,6 +1,7 @@
 
 export const initialState = {
     basket:[],
+    user: null
 }
 
 // selector - my way
@@ -33,7 +34,7 @@ const reducer = (state,action) => {
                 ...state,
                 basket:[...state.basket, action.item],
             }
-            case 'REMOVE_FROM_BASKET':
+        case 'REMOVE_FROM_BASKET':
                /* return{
                     ...state, basket: state.basket.filter(item => item.id !== action.id)
                 }
@@ -53,6 +54,12 @@ const reducer = (state,action) => {
                 }
                 console.log(index);
                 return{...state, basket: newBasket}
+
+        case 'SET_USER':
+                return{
+                    ...state,
+                    user: action.user
+                }
 
 
             default: return state;
