@@ -7,6 +7,7 @@ import Checkout from './Checkout';
 import SignIn from './SignIn';
 import { auth } from './Firebase';
 import { useStateValue } from './StateProvider';
+import Payment from './Payment';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         <Routes>
           <Route path="/SignIn" element= {<><SignIn /></>} />
           <Route path='/checkout' element= {<> <Header/> <Checkout /> </>} />
+          <Route path='/payment' element= {<> <Header/> <Payment /> </>} />
           <Route path="/" element= {<> <Header/> <Home/> </>} />
         </Routes>
       </main>

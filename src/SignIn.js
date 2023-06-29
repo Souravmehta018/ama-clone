@@ -7,7 +7,7 @@ import { auth, firebaseApp } from './Firebase';
 
 
 function LogIn() {
-    const history = useNavigate();
+    const navigat = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -18,7 +18,7 @@ function LogIn() {
         console.log("user credentials>>>>>", userCredential);
         // Successfully signed in
         if (userCredential){
-            history('/')
+            navigat('/')
         }
       })
       .catch((error) => alert(error.message));
@@ -30,7 +30,7 @@ function LogIn() {
       .then((userCredential) => {
         // Successfully created the user
         if (userCredential){
-            history('/');
+            navigat('/');
         }
       })
       .catch((error) => alert(error.message));
