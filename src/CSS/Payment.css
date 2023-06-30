@@ -13,3 +13,17 @@
 .payment__container > h1 a{ /*anchor inside h1*/
     text-align: none;
 }
+
+.payment__section{
+    display: flex;
+    padding: 10px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.payment__title{
+    flex: 25%;
+}
+.payment__address, .payment__items, .payment_details{
+    flex: 75%;
+}
+

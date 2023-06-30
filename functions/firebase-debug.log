@@ -1,0 +1,1749 @@
+[debug] [2023-06-30T17:54:12.230Z] ----------------------------------------------------------------------
+[debug] [2023-06-30T17:54:12.232Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-06-30T17:54:12.233Z] CLI Version:   12.4.0
+[debug] [2023-06-30T17:54:12.233Z] Platform:      win32
+[debug] [2023-06-30T17:54:12.233Z] Node Version:  v18.15.0
+[debug] [2023-06-30T17:54:12.234Z] Time:          Fri Jun 30 2023 23:24:12 GMT+0530 (India Standard Time)
+[debug] [2023-06-30T17:54:12.234Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-30T17:54:12.383Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-30T17:54:12.384Z] > authorizing via signed-in user (mehtas018@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-06-30T17:54:12.405Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T17:54:12.405Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T17:54:12.407Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-06-30T17:54:12.431Z] [hub] writing locator at C:\Users\ASUS\AppData\Local\Temp\hub-clone-72a7c.json
+[debug] [2023-06-30T17:54:12.476Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T17:54:12.476Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T17:54:12.476Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-06-30T17:54:12.501Z] defaultcredentials: writing to file C:\Users\ASUS\AppData\Roaming\firebase\mehtas018_gmail_com_application_default_credentials.json
+[debug] [2023-06-30T17:54:12.509Z] Setting GAC to C:\Users\ASUS\AppData\Roaming\firebase\mehtas018_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\ASUS\\AppData\\Roaming\\firebase\\mehtas018_gmail_com_application_default_credentials.json"}}
+[debug] [2023-06-30T17:54:12.512Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig [none]
+[debug] [2023-06-30T17:54:13.272Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig 200
+[debug] [2023-06-30T17:54:13.272Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig {"projectId":"clone-72a7c","storageBucket":"clone-72a7c.appspot.com"}
+[debug] [2023-06-30T17:54:13.309Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites 
+[debug] [2023-06-30T17:54:14.567Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites 200
+[debug] [2023-06-30T17:54:14.567Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites {"sites":[{"name":"projects/clone-72a7c/sites/clone-72a7c","defaultUrl":"https://clone-72a7c.web.app","appId":"1:270912135124:web:ed2534c2216bc55cdf0041","type":"DEFAULT_SITE"}]}
+[debug] [2023-06-30T17:54:14.568Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config [none]
+[debug] [2023-06-30T17:54:15.926Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config 200
+[debug] [2023-06-30T17:54:15.926Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config {"projectId":"clone-72a7c","appId":"1:270912135124:web:ed2534c2216bc55cdf0041","storageBucket":"clone-72a7c.appspot.com","apiKey":"AIzaSyArmxptiZg0F3Euia3Zd-WvgfjYzoUQec0","authDomain":"clone-72a7c.firebaseapp.com","messagingSenderId":"270912135124","measurementId":"G-7WDPEXJ1QQ"}
+[debug] [2023-06-30T17:54:15.934Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c [none]
+[debug] [2023-06-30T17:54:16.436Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c 200
+[debug] [2023-06-30T17:54:16.436Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c {"projectId":"clone-72a7c","projectNumber":"270912135124","displayName":"amazon-clone","name":"projects/clone-72a7c","resources":{"hostingSite":"clone-72a7c"},"state":"ACTIVE","etag":"1_378207d5-0c20-4c0c-899a-628ce6708236"}
+[info] i  hosting[clone-72a7c]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-72a7c]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[info] i  ui: downloading ui-v1.11.6.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.11.6.zip..."}}
+[debug] [2023-06-30T17:54:16.499Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.6.zip 
+[debug] [2023-06-30T17:54:18.086Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.6.zip 200
+[debug] [2023-06-30T17:54:18.086Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.6.zip [stream]
+[debug] [2023-06-30T17:54:18.760Z] Data is 3063444
+[debug] [2023-06-30T17:54:18.761Z] [unzip] Entry: client/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-30T17:54:18.761Z] [unzip] Processing entry: client\
+[debug] [2023-06-30T17:54:18.761Z] [unzip] mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\
+[debug] [2023-06-30T17:54:18.762Z] [unzip] Entry: client/favicon.ico (compressed_size=2497 bytes, uncompressed_size=7406 bytes)
+[debug] [2023-06-30T17:54:18.762Z] [unzip] Processing entry: client\favicon.ico
+[debug] [2023-06-30T17:54:18.762Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.762Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\favicon.ico
+[debug] [2023-06-30T17:54:18.766Z] [unzip] Entry: client/apple-touch-icon.png (compressed_size=7231 bytes, uncompressed_size=7367 bytes)
+[debug] [2023-06-30T17:54:18.767Z] [unzip] Processing entry: client\apple-touch-icon.png
+[debug] [2023-06-30T17:54:18.767Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.767Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\apple-touch-icon.png
+[debug] [2023-06-30T17:54:18.769Z] [unzip] Entry: client/android-chrome-512x512.png (compressed_size=16987 bytes, uncompressed_size=18186 bytes)
+[debug] [2023-06-30T17:54:18.769Z] [unzip] Processing entry: client\android-chrome-512x512.png
+[debug] [2023-06-30T17:54:18.769Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.769Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\android-chrome-512x512.png
+[debug] [2023-06-30T17:54:18.773Z] [unzip] Entry: client/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-30T17:54:18.773Z] [unzip] Processing entry: client\assets\
+[debug] [2023-06-30T17:54:18.773Z] [unzip] mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\
+[debug] [2023-06-30T17:54:18.776Z] [unzip] Entry: client/assets/extensions/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-30T17:54:18.776Z] [unzip] Processing entry: client\assets\extensions\
+[debug] [2023-06-30T17:54:18.776Z] [unzip] mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\extensions\
+[debug] [2023-06-30T17:54:18.777Z] [unzip] Entry: client/assets/extensions/default-extension.png (compressed_size=1646 bytes, uncompressed_size=1657 bytes)
+[debug] [2023-06-30T17:54:18.777Z] [unzip] Processing entry: client\assets\extensions\default-extension.png
+[debug] [2023-06-30T17:54:18.777Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\extensions
+[debug] [2023-06-30T17:54:18.777Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\extensions\default-extension.png
+[debug] [2023-06-30T17:54:18.779Z] [unzip] Entry: client/assets/index.85584c3f.js (compressed_size=526096 bytes, uncompressed_size=1859818 bytes)
+[debug] [2023-06-30T17:54:18.779Z] [unzip] Processing entry: client\assets\index.85584c3f.js
+[debug] [2023-06-30T17:54:18.779Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets
+[debug] [2023-06-30T17:54:18.779Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\index.85584c3f.js
+[debug] [2023-06-30T17:54:18.796Z] [unzip] Entry: client/assets/provider-icons/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-30T17:54:18.796Z] [unzip] Processing entry: client\assets\provider-icons\
+[debug] [2023-06-30T17:54:18.796Z] [unzip] mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\
+[debug] [2023-06-30T17:54:18.797Z] [unzip] Entry: client/assets/provider-icons/auth_service_oidc.svg (compressed_size=414 bytes, uncompressed_size=858 bytes)
+[debug] [2023-06-30T17:54:18.797Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2023-06-30T17:54:18.797Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.797Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2023-06-30T17:54:18.799Z] [unzip] Entry: client/assets/provider-icons/auth_service_yahoo.svg (compressed_size=577 bytes, uncompressed_size=1182 bytes)
+[debug] [2023-06-30T17:54:18.799Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2023-06-30T17:54:18.799Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.799Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2023-06-30T17:54:18.801Z] [unzip] Entry: client/assets/provider-icons/auth_service_phone.svg (compressed_size=261 bytes, uncompressed_size=414 bytes)
+[debug] [2023-06-30T17:54:18.801Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_phone.svg
+[debug] [2023-06-30T17:54:18.801Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.802Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_phone.svg
+[debug] [2023-06-30T17:54:18.804Z] [unzip] Entry: client/assets/provider-icons/auth_service_saml.svg (compressed_size=575 bytes, uncompressed_size=1226 bytes)
+[debug] [2023-06-30T17:54:18.805Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_saml.svg
+[debug] [2023-06-30T17:54:18.805Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.805Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_saml.svg
+[debug] [2023-06-30T17:54:18.807Z] [unzip] Entry: client/assets/provider-icons/auth_service_mslive.svg (compressed_size=203 bytes, uncompressed_size=378 bytes)
+[debug] [2023-06-30T17:54:18.807Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2023-06-30T17:54:18.807Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.808Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2023-06-30T17:54:18.809Z] [unzip] Entry: client/assets/provider-icons/auth_service_facebook.svg (compressed_size=289 bytes, uncompressed_size=457 bytes)
+[debug] [2023-06-30T17:54:18.810Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2023-06-30T17:54:18.810Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.810Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2023-06-30T17:54:18.812Z] [unzip] Entry: client/assets/provider-icons/auth_service_play_games.svg (compressed_size=565 bytes, uncompressed_size=1173 bytes)
+[debug] [2023-06-30T17:54:18.812Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2023-06-30T17:54:18.812Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.812Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2023-06-30T17:54:18.813Z] [unzip] Entry: client/assets/provider-icons/auth_service_github.svg (compressed_size=466 bytes, uncompressed_size=838 bytes)
+[debug] [2023-06-30T17:54:18.814Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_github.svg
+[debug] [2023-06-30T17:54:18.814Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.814Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_github.svg
+[debug] [2023-06-30T17:54:18.816Z] [unzip] Entry: client/assets/provider-icons/auth_service_apple.svg (compressed_size=230 bytes, uncompressed_size=334 bytes)
+[debug] [2023-06-30T17:54:18.816Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_apple.svg
+[debug] [2023-06-30T17:54:18.816Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.816Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_apple.svg
+[debug] [2023-06-30T17:54:18.818Z] [unzip] Entry: client/assets/provider-icons/auth_service_google.svg (compressed_size=409 bytes, uncompressed_size=720 bytes)
+[debug] [2023-06-30T17:54:18.818Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_google.svg
+[debug] [2023-06-30T17:54:18.818Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.818Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_google.svg
+[debug] [2023-06-30T17:54:18.820Z] [unzip] Entry: client/assets/provider-icons/auth_service_email.svg (compressed_size=228 bytes, uncompressed_size=326 bytes)
+[debug] [2023-06-30T17:54:18.820Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_email.svg
+[debug] [2023-06-30T17:54:18.820Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.820Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_email.svg
+[debug] [2023-06-30T17:54:18.821Z] [unzip] Entry: client/assets/provider-icons/auth_service_twitter.svg (compressed_size=444 bytes, uncompressed_size=751 bytes)
+[debug] [2023-06-30T17:54:18.822Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2023-06-30T17:54:18.822Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.822Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2023-06-30T17:54:18.823Z] [unzip] Entry: client/assets/provider-icons/auth_service_game_center.svg (compressed_size=991 bytes, uncompressed_size=3921 bytes)
+[debug] [2023-06-30T17:54:18.823Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2023-06-30T17:54:18.824Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons
+[debug] [2023-06-30T17:54:18.824Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2023-06-30T17:54:18.825Z] [unzip] Entry: client/assets/img/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-30T17:54:18.825Z] [unzip] Processing entry: client\assets\img\
+[debug] [2023-06-30T17:54:18.826Z] [unzip] mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\img\
+[debug] [2023-06-30T17:54:18.827Z] [unzip] Entry: client/assets/img/database.png (compressed_size=29449 bytes, uncompressed_size=29988 bytes)
+[debug] [2023-06-30T17:54:18.827Z] [unzip] Processing entry: client\assets\img\database.png
+[debug] [2023-06-30T17:54:18.827Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\img
+[debug] [2023-06-30T17:54:18.827Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\img\database.png
+[debug] [2023-06-30T17:54:18.829Z] [unzip] Entry: client/assets/index.b9383ce5.css (compressed_size=37605 bytes, uncompressed_size=321268 bytes)
+[debug] [2023-06-30T17:54:18.829Z] [unzip] Processing entry: client\assets\index.b9383ce5.css
+[debug] [2023-06-30T17:54:18.829Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets
+[debug] [2023-06-30T17:54:18.829Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\index.b9383ce5.css
+[debug] [2023-06-30T17:54:18.833Z] [unzip] Entry: client/assets/index.85584c3f.js.map (compressed_size=1778028 bytes, uncompressed_size=7960238 bytes)
+[debug] [2023-06-30T17:54:18.833Z] [unzip] Processing entry: client\assets\index.85584c3f.js.map
+[debug] [2023-06-30T17:54:18.833Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets
+[debug] [2023-06-30T17:54:18.833Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\assets\index.85584c3f.js.map
+[debug] [2023-06-30T17:54:18.889Z] [unzip] Entry: client/safari-pinned-tab.svg (compressed_size=838 bytes, uncompressed_size=1504 bytes)
+[debug] [2023-06-30T17:54:18.889Z] [unzip] Processing entry: client\safari-pinned-tab.svg
+[debug] [2023-06-30T17:54:18.889Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.890Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\safari-pinned-tab.svg
+[debug] [2023-06-30T17:54:18.891Z] [unzip] Entry: client/mstile-150x150.png (compressed_size=5406 bytes, uncompressed_size=5723 bytes)
+[debug] [2023-06-30T17:54:18.891Z] [unzip] Processing entry: client\mstile-150x150.png
+[debug] [2023-06-30T17:54:18.891Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.891Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\mstile-150x150.png
+[debug] [2023-06-30T17:54:18.893Z] [unzip] Entry: client/browserconfig.xml (compressed_size=491 bytes, uncompressed_size=822 bytes)
+[debug] [2023-06-30T17:54:18.893Z] [unzip] Processing entry: client\browserconfig.xml
+[debug] [2023-06-30T17:54:18.893Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.893Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\browserconfig.xml
+[debug] [2023-06-30T17:54:18.894Z] [unzip] Entry: client/robots.txt (compressed_size=26 bytes, uncompressed_size=26 bytes)
+[debug] [2023-06-30T17:54:18.895Z] [unzip] Processing entry: client\robots.txt
+[debug] [2023-06-30T17:54:18.895Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.895Z] [unzip] Writing file: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\robots.txt
+[debug] [2023-06-30T17:54:18.896Z] [unzip] Entry: client/index.html (compressed_size=1363 bytes, uncompressed_size=3064 bytes)
+[debug] [2023-06-30T17:54:18.897Z] [unzip] Processing entry: client\index.html
+[debug] [2023-06-30T17:54:18.897Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.897Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\index.html
+[debug] [2023-06-30T17:54:18.898Z] [unzip] Entry: client/favicon-16x16.png (compressed_size=757 bytes, uncompressed_size=777 bytes)
+[debug] [2023-06-30T17:54:18.898Z] [unzip] Processing entry: client\favicon-16x16.png
+[debug] [2023-06-30T17:54:18.898Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.899Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\favicon-16x16.png
+[debug] [2023-06-30T17:54:18.900Z] [unzip] Entry: client/manifest.json (compressed_size=246 bytes, uncompressed_size=551 bytes)
+[debug] [2023-06-30T17:54:18.900Z] [unzip] Processing entry: client\manifest.json
+[debug] [2023-06-30T17:54:18.900Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.901Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\manifest.json
+[debug] [2023-06-30T17:54:18.902Z] [unzip] Entry: client/favicon-32x32.png (compressed_size=1175 bytes, uncompressed_size=1175 bytes)
+[debug] [2023-06-30T17:54:18.902Z] [unzip] Processing entry: client\favicon-32x32.png
+[debug] [2023-06-30T17:54:18.902Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.903Z] [unzip] Writing file: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\favicon-32x32.png
+[debug] [2023-06-30T17:54:18.904Z] [unzip] Entry: client/android-chrome-192x192.png (compressed_size=7602 bytes, uncompressed_size=7834 bytes)
+[debug] [2023-06-30T17:54:18.904Z] [unzip] Processing entry: client\android-chrome-192x192.png
+[debug] [2023-06-30T17:54:18.904Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client
+[debug] [2023-06-30T17:54:18.905Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\client\android-chrome-192x192.png
+[debug] [2023-06-30T17:54:18.906Z] [unzip] Entry: server/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-06-30T17:54:18.906Z] [unzip] Processing entry: server\
+[debug] [2023-06-30T17:54:18.906Z] [unzip] mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\server\
+[debug] [2023-06-30T17:54:18.907Z] [unzip] Entry: server/server.js (compressed_size=343746 bytes, uncompressed_size=1346374 bytes)
+[debug] [2023-06-30T17:54:18.907Z] [unzip] Processing entry: server\server.js
+[debug] [2023-06-30T17:54:18.907Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\server
+[debug] [2023-06-30T17:54:18.907Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\server\server.js
+[debug] [2023-06-30T17:54:18.918Z] [unzip] Entry: server/server.js.map (compressed_size=289157 bytes, uncompressed_size=1325651 bytes)
+[debug] [2023-06-30T17:54:18.918Z] [unzip] Processing entry: server\server.js.map
+[debug] [2023-06-30T17:54:18.919Z] [unzip] else mkdir: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\server
+[debug] [2023-06-30T17:54:18.919Z] [unzip] deflating: C:\Users\ASUS\.cache\firebase\emulators\ui-v1.11.6\server\server.js.map
+[debug] [2023-06-30T17:54:18.931Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-06-30T17:54:18.932Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-06-30T17:54:18.932Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\ASUS\\.cache\\firebase\\emulators\\ui-v1.11.6\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\ASUS\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.6\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-06-30T17:54:19.096Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-06-30T17:54:19.096Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\ASUS\Desktop\Project\ama-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-06-30T17:54:19.213Z] Validating nodejs source
+[debug] [2023-06-30T17:54:21.431Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T17:54:21.432Z] Building nodejs source
+[debug] [2023-06-30T17:54:21.432Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T17:54:21.435Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T17:54:21.456Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T17:54:21.920Z] Serving at port 8467
+
+[debug] [2023-06-30T17:54:21.941Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T17:54:21.944Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T17:54:21.949Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:17:57:50 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:17:57:50 +0000] \"GET / HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:17:57:50 +0000] "GET /static/css/main.c34bc487.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:17:57:50 +0000] \"GET /static/css/main.c34bc487.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:17:57:50 +0000] "GET /static/js/main.4848e896.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:17:57:50 +0000] \"GET /static/js/main.4848e896.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:17:57:52 +0000] "GET /manifest.json HTTP/1.1" 200 492 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:17:57:52 +0000] \"GET /manifest.json HTTP/1.1\" 200 492 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:17:57:52 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:17:57:52 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:17:57:52 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:17:57:52 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[debug] [2023-06-30T17:58:54.576Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T17:58:55.583Z] Validating nodejs source
+[debug] [2023-06-30T17:58:58.124Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T17:58:58.125Z] Building nodejs source
+[debug] [2023-06-30T17:58:58.125Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T17:58:58.128Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T17:58:58.144Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T17:58:58.293Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T17:58:58.661Z] Serving at port 8140
+
+[debug] [2023-06-30T17:58:58.682Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T17:58:58.683Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T17:58:58.687Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T17:58:58.845Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T17:58:59.854Z] Validating nodejs source
+[debug] [2023-06-30T17:59:02.243Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T17:59:02.243Z] Building nodejs source
+[debug] [2023-06-30T17:59:02.243Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T17:59:02.245Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T17:59:02.266Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T17:59:02.708Z] Serving at port 8364
+
+[debug] [2023-06-30T17:59:02.726Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T17:59:02.727Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T17:59:02.732Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] "GET /api/ HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] \"GET /api/ HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] "GET /static/css/main.c34bc487.css HTTP/1.1" 200 - "http://localhost:5000/api/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] \"GET /static/css/main.c34bc487.css HTTP/1.1\" 200 - \"http://localhost:5000/api/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] "GET /static/js/main.4848e896.js HTTP/1.1" 200 - "http://localhost:5000/api/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] \"GET /static/js/main.4848e896.js HTTP/1.1\" 200 - \"http://localhost:5000/api/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5000/api/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5000/api/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] "GET /manifest.json HTTP/1.1" 200 492 "http://localhost:5000/api/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] \"GET /manifest.json HTTP/1.1\" 200 492 \"http://localhost:5000/api/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "http://localhost:5000/api/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:01:51 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"http://localhost:5000/api/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:01:56 +0000] "GET /api/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:01:56 +0000] \"GET /api/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[debug] [2023-06-30T18:05:34.989Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:05:35.999Z] Validating nodejs source
+[debug] [2023-06-30T18:05:39.525Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:05:39.526Z] Building nodejs source
+[debug] [2023-06-30T18:05:39.526Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:05:39.528Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:05:39.545Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:05:39.989Z] Serving at port 8912
+
+[debug] [2023-06-30T18:05:40.007Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:05:40.008Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:05:40.012Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:06:44.990Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:06:46.016Z] Validating nodejs source
+[debug] [2023-06-30T18:06:48.860Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:06:48.860Z] Building nodejs source
+[debug] [2023-06-30T18:06:48.860Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:06:48.862Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:06:48.873Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:06:49.285Z] Serving at port 8699
+
+[debug] [2023-06-30T18:06:49.307Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:06:49.307Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:06:49.312Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:07:44.588Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:07:45.593Z] Validating nodejs source
+[debug] [2023-06-30T18:07:48.219Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:07:48.219Z] Building nodejs source
+[debug] [2023-06-30T18:07:48.219Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:07:48.221Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:07:48.237Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:07:48.650Z] Serving at port 8863
+
+[debug] [2023-06-30T18:07:48.668Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:07:48.669Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:07:48.672Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:09:46.396Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:09:47.421Z] Validating nodejs source
+[debug] [2023-06-30T18:09:49.795Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:09:49.796Z] Building nodejs source
+[debug] [2023-06-30T18:09:49.796Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:09:49.798Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:09:49.813Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:09:49.825Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:09:50.218Z] Serving at port 8951
+
+[debug] [2023-06-30T18:09:50.238Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:09:50.238Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:09:50.243Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:09:50.846Z] Validating nodejs source
+[debug] [2023-06-30T18:09:53.664Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:09:53.664Z] Building nodejs source
+[debug] [2023-06-30T18:09:53.664Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:09:53.671Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:09:53.688Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:09:54.324Z] Serving at port 8405
+
+[debug] [2023-06-30T18:09:54.343Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:09:54.344Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:09:54.348Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:10:39.664Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:10:40.677Z] Validating nodejs source
+[debug] [2023-06-30T18:10:42.961Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:10:42.961Z] Building nodejs source
+[debug] [2023-06-30T18:10:42.962Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:10:42.964Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:10:42.980Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:10:43.464Z] Serving at port 8090
+
+[debug] [2023-06-30T18:10:43.483Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:10:43.484Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:10:43.489Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:13:43.421Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:13:44.426Z] Validating nodejs source
+[debug] [2023-06-30T18:13:48.096Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:13:48.096Z] Building nodejs source
+[debug] [2023-06-30T18:13:48.097Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:13:48.099Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:13:48.123Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:13:48.548Z] Serving at port 8516
+
+[debug] [2023-06-30T18:13:48.565Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:13:48.566Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:13:48.570Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:14:56.470Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:14:57.481Z] Validating nodejs source
+[debug] [2023-06-30T18:15:00.077Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:15:00.077Z] Building nodejs source
+[debug] [2023-06-30T18:15:00.078Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:15:00.079Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:15:00.092Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:15:00.502Z] Serving at port 8586
+
+[debug] [2023-06-30T18:15:01.032Z] Got response from /__/functions.yaml Failed to generate manifest from function source: Error: Cannot find module './api'
+Require stack:
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js
+[debug] [2023-06-30T18:15:01.032Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:
+     ... fest from function source: Error: Cannot find module './api'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: Error: Cannot find module './api'\nRequire stack:\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js\n\u0000","position":55,"line":0,"column":55},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:\n     ... fest from function source: Error: Cannot find module './api'\n                                         ^"}
+[debug] [2023-06-30T18:15:01.037Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './api'
+Require stack:
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './api'\nRequire stack:\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js"}}
+[debug] [2023-06-30T18:15:10.666Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:15:11.677Z] Validating nodejs source
+[debug] [2023-06-30T18:15:14.583Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:15:14.584Z] Building nodejs source
+[debug] [2023-06-30T18:15:14.584Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:15:14.586Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:15:14.601Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:15:15.191Z] Serving at port 8493
+
+[debug] [2023-06-30T18:15:15.209Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:15:15.210Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:15:15.215Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:15:29.137Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:15:30.148Z] Validating nodejs source
+[debug] [2023-06-30T18:15:32.568Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:15:32.569Z] Building nodejs source
+[debug] [2023-06-30T18:15:32.569Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:15:32.572Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:15:32.589Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:15:33.015Z] Serving at port 8626
+
+[debug] [2023-06-30T18:15:33.554Z] Got response from /__/functions.yaml Failed to generate manifest from function source: Error: Cannot find module './api'
+Require stack:
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js
+[debug] [2023-06-30T18:15:33.555Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:
+     ... fest from function source: Error: Cannot find module './api'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: Error: Cannot find module './api'\nRequire stack:\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js\n\u0000","position":55,"line":0,"column":55},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:\n     ... fest from function source: Error: Cannot find module './api'\n                                         ^"}
+[debug] [2023-06-30T18:15:33.569Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './api'
+Require stack:
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './api'\nRequire stack:\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js"}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:15:57 +0000] "GET /api/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:15:57 +0000] \"GET /api/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[debug] [2023-06-30T18:17:49.508Z] ----------------------------------------------------------------------
+[debug] [2023-06-30T18:17:49.511Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-06-30T18:17:49.511Z] CLI Version:   12.4.0
+[debug] [2023-06-30T18:17:49.512Z] Platform:      win32
+[debug] [2023-06-30T18:17:49.512Z] Node Version:  v18.15.0
+[debug] [2023-06-30T18:17:49.513Z] Time:          Fri Jun 30 2023 23:47:49 GMT+0530 (India Standard Time)
+[debug] [2023-06-30T18:17:49.514Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-30T18:17:49.658Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-30T18:17:49.659Z] > authorizing via signed-in user (mehtas018@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-06-30T18:17:49.680Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T18:17:49.680Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2023-06-30T18:17:49.682Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project clone-72a7c. This may result in unexpected behavior. 
+[debug] [2023-06-30T18:17:49.709Z] [hub] writing locator at C:\Users\ASUS\AppData\Local\Temp\hub-clone-72a7c.json
+[debug] [2023-06-30T18:17:49.777Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T18:17:49.778Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T18:17:49.778Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-06-30T18:17:49.790Z] defaultcredentials: writing to file C:\Users\ASUS\AppData\Roaming\firebase\mehtas018_gmail_com_application_default_credentials.json
+[debug] [2023-06-30T18:17:49.796Z] Setting GAC to C:\Users\ASUS\AppData\Roaming\firebase\mehtas018_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\ASUS\\AppData\\Roaming\\firebase\\mehtas018_gmail_com_application_default_credentials.json"}}
+[debug] [2023-06-30T18:17:49.798Z] > refreshing access token with scopes: []
+[debug] [2023-06-30T18:17:49.800Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-06-30T18:17:49.800Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-30T18:17:50.093Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-06-30T18:17:50.093Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-06-30T18:17:50.110Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig [none]
+[debug] [2023-06-30T18:17:51.172Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig 200
+[debug] [2023-06-30T18:17:51.173Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig {"projectId":"clone-72a7c","storageBucket":"clone-72a7c.appspot.com"}
+[debug] [2023-06-30T18:17:51.225Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites 
+[debug] [2023-06-30T18:17:52.524Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites 200
+[debug] [2023-06-30T18:17:52.524Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites {"sites":[{"name":"projects/clone-72a7c/sites/clone-72a7c","defaultUrl":"https://clone-72a7c.web.app","appId":"1:270912135124:web:ed2534c2216bc55cdf0041","type":"DEFAULT_SITE"}]}
+[debug] [2023-06-30T18:17:52.525Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config [none]
+[debug] [2023-06-30T18:17:54.048Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config 200
+[debug] [2023-06-30T18:17:54.049Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config {"projectId":"clone-72a7c","appId":"1:270912135124:web:ed2534c2216bc55cdf0041","storageBucket":"clone-72a7c.appspot.com","apiKey":"AIzaSyArmxptiZg0F3Euia3Zd-WvgfjYzoUQec0","authDomain":"clone-72a7c.firebaseapp.com","messagingSenderId":"270912135124","measurementId":"G-7WDPEXJ1QQ"}
+[debug] [2023-06-30T18:17:54.067Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c [none]
+[debug] [2023-06-30T18:17:54.793Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c 200
+[debug] [2023-06-30T18:17:54.794Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c {"projectId":"clone-72a7c","projectNumber":"270912135124","displayName":"amazon-clone","name":"projects/clone-72a7c","resources":{"hostingSite":"clone-72a7c"},"state":"ACTIVE","etag":"1_378207d5-0c20-4c0c-899a-628ce6708236"}
+[info] i  hosting[clone-72a7c]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-72a7c]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-06-30T18:17:54.861Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-06-30T18:17:54.861Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-06-30T18:17:54.863Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\ASUS\\.cache\\firebase\\emulators\\ui-v1.11.6\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\ASUS\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.6\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-06-30T18:17:55.032Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2023-06-30T18:17:55.032Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] i  functions: Watching "C:\Users\ASUS\Desktop\Project\ama-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-06-30T18:17:55.186Z] Validating nodejs source
+[debug] [2023-06-30T18:17:57.502Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:17:57.502Z] Building nodejs source
+[debug] [2023-06-30T18:17:57.503Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:17:57.510Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:17:57.528Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:17:57.906Z] Serving at port 8334
+
+[debug] [2023-06-30T18:17:58.408Z] Got response from /__/functions.yaml Failed to generate manifest from function source: Error: Cannot find module './api'
+Require stack:
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js
+[debug] [2023-06-30T18:17:58.411Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:
+     ... fest from function source: Error: Cannot find module './api'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: Error: Cannot find module './api'\nRequire stack:\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js\n\u0000","position":55,"line":0,"column":55},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:\n     ... fest from function source: Error: Cannot find module './api'\n                                         ^"}
+[debug] [2023-06-30T18:17:58.416Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './api'
+Require stack:
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './api'\nRequire stack:\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4001/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-06-30T18:19:00.413Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:19:01.001Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:19:02.013Z] Validating nodejs source
+[debug] [2023-06-30T18:19:07.156Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:19:07.158Z] Building nodejs source
+[debug] [2023-06-30T18:19:07.159Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:19:07.164Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:19:07.205Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:19:07.239Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:19:07.415Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:19:07.815Z] Serving at port 8598
+
+[debug] [2023-06-30T18:19:07.856Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:19:07.856Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:19:07.863Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:19:08.427Z] Validating nodejs source
+[debug] [2023-06-30T18:19:11.536Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:19:11.537Z] Building nodejs source
+[debug] [2023-06-30T18:19:11.537Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:19:11.545Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:19:11.568Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:19:11.584Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:19:12.099Z] Serving at port 8719
+
+[debug] [2023-06-30T18:19:12.119Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:19:12.119Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:19:12.124Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:19:12.593Z] Validating nodejs source
+[debug] [2023-06-30T18:19:15.632Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:19:15.632Z] Building nodejs source
+[debug] [2023-06-30T18:19:15.632Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:19:15.636Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:19:15.656Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:19:16.148Z] Serving at port 8181
+
+[debug] [2023-06-30T18:19:16.169Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'
+[debug] [2023-06-30T18:19:16.169Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'function'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'function'\n                                         ^"}
+[debug] [2023-06-30T18:19:16.175Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'function'"}}
+[debug] [2023-06-30T18:19:17.658Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:19:18.664Z] Validating nodejs source
+[debug] [2023-06-30T18:19:21.929Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:19:21.930Z] Building nodejs source
+[debug] [2023-06-30T18:19:21.930Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:19:21.935Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:19:21.953Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:19:22.303Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:19:22.652Z] Serving at port 8713
+
+[debug] [2023-06-30T18:19:22.689Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Invalid or unexpected token
+[debug] [2023-06-30T18:19:22.690Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Invalid or unexpected token
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Invalid or unexpected token\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Invalid or unexpected token\n                                         ^"}
+[debug] [2023-06-30T18:19:22.695Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Invalid or unexpected token {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Invalid or unexpected token"}}
+[debug] [2023-06-30T18:19:23.315Z] Validating nodejs source
+[debug] [2023-06-30T18:19:26.766Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:19:26.766Z] Building nodejs source
+[debug] [2023-06-30T18:19:26.766Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:19:26.773Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:19:26.798Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:19:26.836Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:19:27.328Z] Serving at port 8566
+
+[debug] [2023-06-30T18:19:27.395Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'export'
+[debug] [2023-06-30T18:19:27.395Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'export'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'export'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'export'\n                                         ^"}
+[debug] [2023-06-30T18:19:27.410Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'export' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'export'"}}
+[debug] [2023-06-30T18:19:27.844Z] Validating nodejs source
+[debug] [2023-06-30T18:19:31.412Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:19:31.414Z] Building nodejs source
+[debug] [2023-06-30T18:19:31.415Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:19:31.419Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:19:31.459Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:19:32.010Z] Serving at port 8473
+
+[debug] [2023-06-30T18:19:32.038Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'export'
+[debug] [2023-06-30T18:19:32.039Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'export'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'export'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'export'\n                                         ^"}
+[debug] [2023-06-30T18:19:32.045Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'export' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'export'"}}
+[debug] [2023-06-30T18:20:01.207Z] ----------------------------------------------------------------------
+[debug] [2023-06-30T18:20:01.210Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-06-30T18:20:01.211Z] CLI Version:   12.4.0
+[debug] [2023-06-30T18:20:01.212Z] Platform:      win32
+[debug] [2023-06-30T18:20:01.212Z] Node Version:  v18.15.0
+[debug] [2023-06-30T18:20:01.216Z] Time:          Fri Jun 30 2023 23:50:01 GMT+0530 (India Standard Time)
+[debug] [2023-06-30T18:20:01.216Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-30T18:20:01.416Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-30T18:20:01.417Z] > authorizing via signed-in user (mehtas018@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-06-30T18:20:01.445Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T18:20:01.445Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4002 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4002 instead."}}
+[debug] [2023-06-30T18:20:01.453Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4002},{"address":"::1","family":"IPv6","port":4002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project clone-72a7c. This may result in unexpected behavior. 
+[debug] [2023-06-30T18:20:01.490Z] [hub] writing locator at C:\Users\ASUS\AppData\Local\Temp\hub-clone-72a7c.json
+[debug] [2023-06-30T18:20:01.592Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T18:20:01.593Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T18:20:01.593Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4002},{"address":"::1","family":"IPv6","port":4002}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-06-30T18:20:01.625Z] defaultcredentials: writing to file C:\Users\ASUS\AppData\Roaming\firebase\mehtas018_gmail_com_application_default_credentials.json
+[debug] [2023-06-30T18:20:01.683Z] Setting GAC to C:\Users\ASUS\AppData\Roaming\firebase\mehtas018_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\ASUS\\AppData\\Roaming\\firebase\\mehtas018_gmail_com_application_default_credentials.json"}}
+[debug] [2023-06-30T18:20:01.687Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig [none]
+[debug] [2023-06-30T18:20:02.359Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig 200
+[debug] [2023-06-30T18:20:02.360Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig {"projectId":"clone-72a7c","storageBucket":"clone-72a7c.appspot.com"}
+[debug] [2023-06-30T18:20:02.471Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites 
+[debug] [2023-06-30T18:20:03.646Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites 200
+[debug] [2023-06-30T18:20:03.648Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites {"sites":[{"name":"projects/clone-72a7c/sites/clone-72a7c","defaultUrl":"https://clone-72a7c.web.app","appId":"1:270912135124:web:ed2534c2216bc55cdf0041","type":"DEFAULT_SITE"}]}
+[debug] [2023-06-30T18:20:03.650Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config [none]
+[debug] [2023-06-30T18:20:05.229Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config 200
+[debug] [2023-06-30T18:20:05.229Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config {"projectId":"clone-72a7c","appId":"1:270912135124:web:ed2534c2216bc55cdf0041","storageBucket":"clone-72a7c.appspot.com","apiKey":"AIzaSyArmxptiZg0F3Euia3Zd-WvgfjYzoUQec0","authDomain":"clone-72a7c.firebaseapp.com","messagingSenderId":"270912135124","measurementId":"G-7WDPEXJ1QQ"}
+[debug] [2023-06-30T18:20:05.246Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c [none]
+[debug] [2023-06-30T18:20:06.075Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c 200
+[debug] [2023-06-30T18:20:06.076Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c {"projectId":"clone-72a7c","projectNumber":"270912135124","displayName":"amazon-clone","name":"projects/clone-72a7c","resources":{"hostingSite":"clone-72a7c"},"state":"ACTIVE","etag":"1_378207d5-0c20-4c0c-899a-628ce6708236"}
+[info] i  hosting[clone-72a7c]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-72a7c]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-06-30T18:20:06.278Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-06-30T18:20:06.279Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-06-30T18:20:06.279Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\ASUS\\.cache\\firebase\\emulators\\ui-v1.11.6\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\ASUS\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.6\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-06-30T18:20:06.509Z] Web / API server started at 127.0.0.1:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4002\n"}}
+[debug] [2023-06-30T18:20:06.510Z] Web / API server started at ::1:4002
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4002\n"}}
+[info] i  functions: Watching "C:\Users\ASUS\Desktop\Project\ama-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-06-30T18:20:06.602Z] Validating nodejs source
+[debug] [2023-06-30T18:20:09.695Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:20:09.696Z] Building nodejs source
+[debug] [2023-06-30T18:20:09.696Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:20:09.705Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:20:09.733Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:20:10.232Z] Serving at port 8350
+
+[debug] [2023-06-30T18:20:10.252Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Unexpected token 'export'
+[debug] [2023-06-30T18:20:10.257Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Unexpected token 'export'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Unexpected token 'export'\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Unexpected token 'export'\n                                         ^"}
+[debug] [2023-06-30T18:20:10.263Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'export' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Unexpected token 'export'"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4002/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4002/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-06-30T18:24:20.153Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:24:21.159Z] Validating nodejs source
+[debug] [2023-06-30T18:24:24.603Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:24:24.604Z] Building nodejs source
+[debug] [2023-06-30T18:24:24.604Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:24:24.608Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:24:24.642Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:24:25.140Z] Serving at port 8304
+
+[debug] [2023-06-30T18:24:25.827Z] Got response from /__/functions.yaml Failed to generate manifest from function source: Error: Cannot find module './api'
+Require stack:
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js
+[debug] [2023-06-30T18:24:25.827Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:
+     ... fest from function source: Error: Cannot find module './api'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: Error: Cannot find module './api'\nRequire stack:\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js\n\u0000","position":55,"line":0,"column":55},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:\n     ... fest from function source: Error: Cannot find module './api'\n                                         ^"}
+[debug] [2023-06-30T18:24:25.832Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './api'
+Require stack:
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './api'\nRequire stack:\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js"}}
+[debug] [2023-06-30T18:28:36.305Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:28:37.318Z] Validating nodejs source
+[debug] [2023-06-30T18:28:39.501Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:28:39.501Z] Building nodejs source
+[debug] [2023-06-30T18:28:39.501Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:28:39.503Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:28:39.516Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:28:40.092Z] Serving at port 8416
+
+[debug] [2023-06-30T18:28:40.741Z] Got response from /__/functions.yaml Failed to generate manifest from function source: Error: Cannot find module './api'
+Require stack:
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js
+[debug] [2023-06-30T18:28:40.742Z] Failed to parse functions.yaml incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:
+     ... fest from function source: Error: Cannot find module './api'
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: Error: Cannot find module './api'\nRequire stack:\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js\n\u0000","position":55,"line":0,"column":55},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 56:\n     ... fest from function source: Error: Cannot find module './api'\n                                         ^"}
+[debug] [2023-06-30T18:28:40.747Z] shutdown requested via /__/quitquitquit
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './api'
+Require stack:
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\runtime\loader.js
+- C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: Error: Cannot find module './api'\nRequire stack:\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\runtime\\loader.js\n- C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\node_modules\\firebase-functions\\lib\\bin\\firebase-functions.js"}}
+[debug] [2023-06-30T18:36:56.634Z] ----------------------------------------------------------------------
+[debug] [2023-06-30T18:36:56.638Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-06-30T18:36:56.639Z] CLI Version:   12.4.0
+[debug] [2023-06-30T18:36:56.640Z] Platform:      win32
+[debug] [2023-06-30T18:36:56.640Z] Node Version:  v18.15.0
+[debug] [2023-06-30T18:36:56.641Z] Time:          Sat Jul 01 2023 00:06:56 GMT+0530 (India Standard Time)
+[debug] [2023-06-30T18:36:56.641Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-30T18:36:56.793Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-30T18:36:56.793Z] > authorizing via signed-in user (mehtas018@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-06-30T18:36:56.810Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T18:36:56.811Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2023-06-30T18:36:56.816Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project clone-72a7c. This may result in unexpected behavior. 
+[debug] [2023-06-30T18:36:56.849Z] [hub] writing locator at C:\Users\ASUS\AppData\Local\Temp\hub-clone-72a7c.json
+[debug] [2023-06-30T18:36:56.917Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T18:36:56.917Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-06-30T18:36:56.917Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-06-30T18:36:56.934Z] defaultcredentials: writing to file C:\Users\ASUS\AppData\Roaming\firebase\mehtas018_gmail_com_application_default_credentials.json
+[debug] [2023-06-30T18:36:56.941Z] Setting GAC to C:\Users\ASUS\AppData\Roaming\firebase\mehtas018_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\ASUS\\AppData\\Roaming\\firebase\\mehtas018_gmail_com_application_default_credentials.json"}}
+[debug] [2023-06-30T18:36:56.945Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig [none]
+[debug] [2023-06-30T18:36:57.487Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig 200
+[debug] [2023-06-30T18:36:57.488Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/adminSdkConfig {"projectId":"clone-72a7c","storageBucket":"clone-72a7c.appspot.com"}
+[debug] [2023-06-30T18:36:57.511Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites 
+[debug] [2023-06-30T18:36:58.640Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites 200
+[debug] [2023-06-30T18:36:58.641Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-72a7c/sites {"sites":[{"name":"projects/clone-72a7c/sites/clone-72a7c","defaultUrl":"https://clone-72a7c.web.app","appId":"1:270912135124:web:ed2534c2216bc55cdf0041","type":"DEFAULT_SITE"}]}
+[debug] [2023-06-30T18:36:58.641Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config [none]
+[debug] [2023-06-30T18:36:59.929Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config 200
+[debug] [2023-06-30T18:36:59.930Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c/webApps/1:270912135124:web:ed2534c2216bc55cdf0041/config {"projectId":"clone-72a7c","appId":"1:270912135124:web:ed2534c2216bc55cdf0041","storageBucket":"clone-72a7c.appspot.com","apiKey":"AIzaSyArmxptiZg0F3Euia3Zd-WvgfjYzoUQec0","authDomain":"clone-72a7c.firebaseapp.com","messagingSenderId":"270912135124","measurementId":"G-7WDPEXJ1QQ"}
+[debug] [2023-06-30T18:36:59.942Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c [none]
+[debug] [2023-06-30T18:37:00.491Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c 200
+[debug] [2023-06-30T18:37:00.491Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-72a7c {"projectId":"clone-72a7c","projectNumber":"270912135124","displayName":"amazon-clone","name":"projects/clone-72a7c","resources":{"hostingSite":"clone-72a7c"},"state":"ACTIVE","etag":"1_378207d5-0c20-4c0c-899a-628ce6708236"}
+[info] i  hosting[clone-72a7c]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[clone-72a7c]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-06-30T18:37:00.529Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-06-30T18:37:00.529Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-06-30T18:37:00.529Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\ASUS\\.cache\\firebase\\emulators\\ui-v1.11.6\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\ASUS\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.6\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-06-30T18:37:00.762Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2023-06-30T18:37:00.763Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] i  functions: Watching "C:\Users\ASUS\Desktop\Project\ama-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-06-30T18:37:00.837Z] Validating nodejs source
+[debug] [2023-06-30T18:37:03.145Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:37:03.145Z] Building nodejs source
+[debug] [2023-06-30T18:37:03.146Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:37:03.150Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:37:03.163Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:37:03.552Z] Serving at port 8558
+
+[debug] [2023-06-30T18:37:04.104Z] Server started!
+
+[debug] [2023-06-30T18:37:04.108Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-06-30T18:37:04.115Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4001/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-06-30T18:40:28.108Z] Functions emulator received unknown request at path /
+[debug] [2023-06-30T18:40:28.208Z] Functions emulator received unknown request at path /favicon.ico
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:40:46 +0000] "GET / HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:40:46 +0000] \"GET / HTTP/1.1\" 200 644 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:40:47 +0000] "GET /static/css/main.c34bc487.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:40:47 +0000] \"GET /static/css/main.c34bc487.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:40:47 +0000] "GET /static/js/main.4848e896.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:40:47 +0000] \"GET /static/js/main.4848e896.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:40:47 +0000] "GET /manifest.json HTTP/1.1" 200 492 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:40:47 +0000] \"GET /manifest.json HTTP/1.1\" 200 492 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[info] i  hosting: 127.0.0.1 - - [30/Jun/2023:18:40:47 +0000] "GET /logo192.png HTTP/1.1" 200 5347 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [30/Jun/2023:18:40:47 +0000] \"GET /logo192.png HTTP/1.1\" 200 5347 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58\""}}
+[debug] [2023-06-30T18:40:57.977Z] Functions emulator received unknown request at path /
+[debug] [2023-06-30T18:46:04.855Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:46:05.864Z] Validating nodejs source
+[debug] [2023-06-30T18:46:08.220Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:46:08.220Z] Building nodejs source
+[debug] [2023-06-30T18:46:08.220Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:46:08.222Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:46:08.235Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:46:08.250Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:46:08.915Z] Serving at port 8735
+
+[debug] [2023-06-30T18:46:09.264Z] Validating nodejs source
+[debug] [2023-06-30T18:46:12.680Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:46:12.680Z] Building nodejs source
+[debug] [2023-06-30T18:46:12.680Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:46:12.682Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:46:12.694Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://localhost:8735/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8735 {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://localhost:8735/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8735"}}
+[debug] [2023-06-30T18:46:13.171Z] Serving at port 8247
+
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://localhost:8247/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8247 {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://localhost:8247/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8247"}}
+[debug] [2023-06-30T18:46:14.565Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:46:15.232Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:46:16.247Z] Validating nodejs source
+[debug] [2023-06-30T18:46:18.585Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:46:18.585Z] Building nodejs source
+[debug] [2023-06-30T18:46:18.585Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:46:18.589Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:46:18.604Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:46:19.040Z] Serving at port 8421
+
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://localhost:8421/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8421 {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://localhost:8421/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8421"}}
+[debug] [2023-06-30T18:46:23.796Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:46:24.830Z] Validating nodejs source
+[debug] [2023-06-30T18:46:27.255Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:46:27.255Z] Building nodejs source
+[debug] [2023-06-30T18:46:27.255Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:46:27.257Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:46:27.270Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:46:27.287Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:46:27.678Z] Serving at port 8255
+
+[debug] [2023-06-30T18:46:27.987Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://localhost:8255/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8255 {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://localhost:8255/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8255"}}
+[debug] [2023-06-30T18:46:28.898Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:46:29.762Z] File C:\Users\ASUS\Desktop\Project\ama-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\ASUS\\Desktop\\Project\\ama-clone\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-06-30T18:46:30.775Z] Validating nodejs source
+[debug] [2023-06-30T18:46:32.762Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-06-30T18:46:32.762Z] Building nodejs source
+[debug] [2023-06-30T18:46:32.763Z] Failed to find version of module node: reached end of search path C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-06-30T18:46:32.765Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-06-30T18:46:32.774Z] Found firebase-functions binary at 'C:\Users\ASUS\Desktop\Project\ama-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-06-30T18:46:33.150Z] Serving at port 8424
+
+[error] !!  functions: Failed to load function definition from source: FetchError: request to http://localhost:8424/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8424 {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FetchError: request to http://localhost:8424/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8424"}}
